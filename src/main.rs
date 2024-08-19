@@ -1,5 +1,4 @@
 use pgp::packet::*;
-use pgp::ser::Serialize;
 use pgp::types::*;
 use pgp::Deserializable as _;
 use pgp::SignedSecretKey;
