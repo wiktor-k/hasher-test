@@ -7,11 +7,15 @@ edition = "2021"
 
 [dependencies]
 hex-literal = "0.4.1"
-sha2 = "0.11.0-pre.4"
+#pgp = "0.13.2"
 #sha3 = "0.11.0-pre.2"
 #sha2 = { git = "https://github.com/baloo/hashes", branch = "baloo/serialize-state/rebase" }
 testresult = "0.4.0"
 #"0.10.8"
+sha2 = "0.11.0-pre.4"
+#sha2 = "0.10"
+pgp = { git = "https://github.com/wiktor-k/rpgp.git", branch = "wiktor/make-hash-sig-more-flexible" }
 
-#[patch.crates-io]
+[patch.crates-io]
+#pgp = { git = "https://github.com/wiktor-k/rpgp.git", branch = "wiktor/make-hash-sig-more-flexible" }
 #crypto-common = "0.2.0-pre.4"
