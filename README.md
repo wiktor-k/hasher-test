@@ -2,7 +2,12 @@
 
 A demo of creating OpenPGP v4 signatures which contain the signed data's digest.
 
-To implement that a state of the digest is captured and restored twice: once to recover the original file's digest, twice for appending OpenPGP data for signing purposes.
+To implement that a state of the digest is captured and restored twice:
+
+1. to recover the original file's digest
+2. for appending OpenPGP data for signing purposes.
+
+Note that due to format differences this will *not* work with v6 signatures.
 
 ## Running
 
